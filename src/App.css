@@ -13,6 +13,14 @@
   }
 }
 
+.my-custom-scrollbar {
+  position: relative;
+  overflow: auto;
+}
+.table-wrapper-scroll-y {
+  display: block;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +43,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.statusIconDelivered, .statusIconProcessing {
+  margin-right: 8px;
+}
+
+.statusIconDelivered {
+  color: #6ff10d;
+}
+
+.statusIconProcessing {
+  color: #287dff;
+}
+
+#tableContainer{
+  max-height: 500px;
 }
